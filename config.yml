@@ -12,7 +12,8 @@ logging:
   level: INFO
   loggers:
     io.dropwizard: INFO
-    your.package.name: DEBUG  # Replace with your actual base package name
+    com.skyscanner: DEBUG
+
 
   appenders:
     - type: console
