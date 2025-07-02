@@ -8,4 +8,5 @@ RUN mvn package
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/hoen-scanner-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "hoen-scanner-1.0-SNAPSHOT.jar", "server"]
+
